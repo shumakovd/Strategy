@@ -26,6 +26,7 @@
 		8492535A2943802E0068D6E0 /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253592943802E0068D6E0 /* RealmStorage.swift */; };
 		8492535C2943803E0068D6E0 /* DomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492535B2943803E0068D6E0 /* DomainModel.swift */; };
 		8492535F294380580068D6E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492535E294380580068D6E0 /* User.swift */; };
+		8492536229438B0C0068D6E0 /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 8492536129438B0C0068D6E0 /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		849253592943802E0068D6E0 /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
 		8492535B2943803E0068D6E0 /* DomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModel.swift; sourceTree = "<group>"; };
 		8492535E294380580068D6E0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8492536129438B0C0068D6E0 /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				8492533C29437DAE0068D6E0 /* ViewControllers */,
 				8492533D29437DC70068D6E0 /* Storyboards */,
 				8492531529437D700068D6E0 /* Assets.xcassets */,
+				8492536029438AFF0068D6E0 /* info */,
 				8492531A29437D700068D6E0 /* Info.plist */,
 			);
 			path = Strategy;
@@ -253,6 +256,14 @@
 			path = Structures;
 			sourceTree = "<group>";
 		};
+		8492536029438AFF0068D6E0 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				8492536129438B0C0068D6E0 /* info.rtfd */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +370,7 @@
 			files = (
 				8492531929437D700068D6E0 /* LaunchScreen.storyboard in Resources */,
 				8492531629437D700068D6E0 /* Assets.xcassets in Resources */,
+				8492536229438B0C0068D6E0 /* info.rtfd in Resources */,
 				8492531429437D6D0068D6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
